@@ -1,0 +1,287 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta id="viewport" name="viewport" content="width=device-width, user-scalable=no">
+		<title>Estudo de HTML CSS -alterado</title>
+		<link href="css/prportal.css" rel="stylesheet" >
+		<script type="text/javascript" src="js/portal.js"></script>
+	</head>
+	<body>
+    <div class="topo">
+      
+      <div class="topoint">
+        <div class="topoint-left">
+          <ul>
+            <li><a href="./"  class="ativo">Nome</a></li>
+            <li><a href="quemSomos">Quem Somos</a></li>
+            <li><a href="anuncieAqui">Anuncie Aqui</a></li>
+            <li><a href="contato">Contato</a></li>
+          </ul>  
+        </div>
+        <div class="topoint-right">
+
+          <input type="image" src="imagens/search.jpg" width="26" height="26" />
+          <input type="search" class="searchSite" name="buscanoSite" placeholder="Busca..."/>
+          <a href=""><img src="imagens/youtube.png" border ="0" width="26" height="26" /></a>
+          <a href=""><img src="imagens/twiter.png" border ="0" width="26" height="26" /></a>
+          <a href=""><img src="imagens/facebook.png" border ="0" width="26" height="26" /></a>
+          <a href=""><img src="imagens/googleplus.jpg" border ="0" width="26" height="26" /></a>
+          <a href=""><img src="imagens/rss.png" border ="0" width="26" height="26" /></a>
+        </div>
+
+      </div>
+
+    </div>
+    <div class="topoempresa">
+      <div class="topoempresaint">
+        <div class="logo">
+          <img src="imagens\logo_curso_alterado.png" border="0" width="230" height="51">
+        </div>
+        <div class="bannerpublico">
+          Área de Publicidade 728x90px
+          
+        </div>
+      </div>
+    </div>
+    <div class="menuprincipal" >
+      <div class="menuinterno">
+          <img class="menumobile" onclick="toggleMenu()" src="imagens/threelines.png" style="width: 40; height: 40px;" alt="icone representa menu em mobile" />
+        <ul id="menumobi" >
+          <li><a href="">Home</a></li>
+          <li><a href="">Economia</a></li>
+          <li><a href="">Entretenimento</a>
+            <img src="imagens/setabaixo.png" border="0" width="10"/>
+              <div class="submenu">
+                <a href=""><div class="submenuitem">Cinema</div></a>
+                <a href=""><div class="submenuitem">Teatro</div></a>
+                <a href=""><div class="submenuitem">Esposições</div></a>
+                <a href=""><div class="submenuitem">Livrarias</div></a>
+                <a href=""><div class="submenuitem">Música</div></a>
+              </div>
+
+          </li>
+          <li><a href="">Esporte</a>
+            <img src="imagens/setabaixo.png" border="0" width="10"/>
+              <div class="submenu"></div>
+
+          </li>
+          <li><a href="">Geral</a></li>
+          <li><a href="">Notícias</a>
+            <img src="imagens/setabaixo.png" border="0" width="10"/>
+              <div class="submenu"></div>
+
+          </li>
+          <li><a href="">Polícia</a></li>
+          <li><a href="">Vídeo</a></li>
+        </ul>  
+        
+      </div>
+    </div>
+    <div class="ultimasnoticias">
+      <div class="ultimasnoticiasinterno">
+        <div class="uniarea">
+          <div class="uniareatitulo">ÚLTIMAS NOTÍCIAS</div>
+          <div class="uniareanoticia">Vitória do Brasil sobre a Argentina 3x0.</div>
+        </div>
+      </div>
+      
+    </div>
+    <div class="container">
+      <div class="containerint">
+        <div class="leftside">
+            <div class="slideshow" id="slideshow">
+                    <div class="indexador" >
+                            <div class="imarcador" onclick=mudarSlide(0)></div>
+                            <div class="imarcador" onclick=mudarSlide(1)></div>
+                            <div class="imarcador" onclick=mudarSlide(2)></div>
+                            <div class="imarcador" onclick=mudarSlide(3)></div>
+                    </div>
+                    <div class="slideshowarea" >
+                            <a href="http://www.google.com.br">
+                            <div class="slide" style="background-image:url('http://www.google.com.br/google.jpg')">
+                                    <div class="slideinfo">
+                                            <div class="slidetitulo">Titulo da Imagem 1</div>
+                                            <div class="slidesubtitulo">Logo 1 da Google disponível gratuitamente.</div>
+                                    </div>
+                            </div>
+                            </a>
+                            <div class="slide" style="background-image:url('http://www.google.com.br/google.jpg')">
+                                    <div class="slideinfo">
+                                            <div class="slidetitulo">Titulo da Imagem 2</div>
+                                            <div class="slidesubtitulo">Logo 2 da Google disponível gratuitamente.</div>
+                                    </div>
+                            </div>
+                            <div class="slide" style="background-image:url('http://www.google.com.br/google.jpg')">
+                                    <div class="slideinfo">
+                                            <div class="slidetitulo">Titulo da Imagem 3</div>
+                                            <div class="slidesubtitulo">Logo 3 da Google disponívelgratuitamente.</div>
+                                    </div>
+                            </div>
+                            <div class="slide" style="background-image:url('http://www.google.com.br/google.jpg')">
+                                    <div class="slideinfo">
+                                            <div class="slidetitulo">Titulo da Imagem 4</div>
+                                            <div class="slidesubtitulo">Logo 4 da Google disponível gratuitamente.</div>
+                                    </div>
+                            </div>
+                    </div>
+
+            </div>
+			<div class="widget">
+				<div class="widget_titulo">NOTÍCIAS</div>
+				<div class="widget_conteudo">
+					<div class="noticiasarea1">
+						<div class="noticiaitem noticiabig" >
+							<div class="noticiaimg">
+								<img src="" border="0" width="80" heigh="80" />
+							</div>
+							<div class="noticiatitulo">
+							Texto de notícias que vou procurar algum plugins para mostrar automaticamente as notícias, ou banco de dados.
+							</div>
+							<div class="noticiainfo">25/09/2014 - BBC</div>
+						</div>
+					</div>
+					<div class="noticiasarea2">
+						<div class="noticiaitem" >
+							<div class="noticiaimg">
+								<img src="" border="0" width="80" heigh="80" />
+							</div>
+							<div class="noticiatitulo">Algum título qualquer</div>
+							<div class="noticiainfo">25/09/2014 - BBC</div>
+						</div>
+						<div class="noticiaitem" >
+							<div class="noticiaimg">
+								<img src="" border="0" width="80" heigh="80" />
+							</div>
+							<div class="noticiatitulo">Algum título qualquer</div>
+							<div class="noticiainfo">25/09/2014 - BBC</div>
+						</div>
+						<div class="noticiaitem" >
+							<div class="noticiaimg">
+								<img src="" border="0" width="80" heigh="80" />
+							</div>
+							<div class="noticiatitulo">Algum título qualquer</div>
+							<div class="noticiainfo">25/09/2014 - BBC</div>
+						</div>
+						<div class="noticiaitem" >
+							<div class="noticiaimg">
+								<img src="" border="0" width="80" heigh="80" />
+							</div>
+							<div class="noticiatitulo">Algum título qualquer</div>
+							<div class="noticiainfo">25/09/2014 - BBC</div>
+						</div>
+					</div>
+					<div style="clear:both"></div>
+				</div>
+			</div>
+			<div class="widget">
+				<div class="widget_titulo">NOTÍCIAS</div>
+				<div class="widget_conteudo">
+					<div class="noticiasarea1">
+						<div class="noticiaitem noticiabig" >
+							<div class="noticiaimg">
+								<img src="" border="0" width="80" heigh="80" />
+							</div>
+							<div class="noticiatitulo">
+							Texto de notícias que vou procurar algum plugins para mostrar automaticamente as notícias, ou banco de dados.
+							</div>
+							<div class="noticiainfo">25/09/2014 - BBC</div>
+						</div>
+					</div>
+					<div class="noticiasarea2">
+						<div class="noticiaitem" >
+							<div class="noticiaimg">
+								<img src="" border="0" width="80" heigh="80" />
+							</div>
+							<div class="noticiatitulo">Algum título qualquer</div>
+							<div class="noticiainfo">25/09/2014 - BBC</div>
+						</div>
+						<div class="noticiaitem" >
+							<div class="noticiaimg">
+								<img src="" border="0" width="80" heigh="80" />
+							</div>
+							<div class="noticiatitulo">Algum título qualquer</div>
+							<div class="noticiainfo">25/09/2014 - BBC</div>
+						</div>
+						<div class="noticiaitem" >
+							<div class="noticiaimg">
+								<img src="" border="0" width="80" heigh="80" />
+							</div>
+							<div class="noticiatitulo">Algum título qualquer</div>
+							<div class="noticiainfo">25/09/2014 - BBC</div>
+						</div>
+						<div class="noticiaitem" >
+							<div class="noticiaimg">
+								<img src="" border="0" width="80" heigh="80" />
+							</div>
+							<div class="noticiatitulo">Algum título qualquer</div>
+							<div class="noticiainfo">25/09/2014 - BBC</div>
+						</div>
+					</div>
+					<div style="clear:both"></div>
+				</div>
+			</div>
+						
+			
+		</div>
+        <div class="rightside">
+          <div class="widget">
+            <div class="widget_titulo">SOCIAL</div>
+            <div class="widget_conteudo">
+              <a href=""><img src="imagens/rss.png" border ="0" width="26" height="26" /></a>
+              <a href=""><img src="imagens/googleplus.jpg" border ="0" width="26" height="26" /></a>
+              <a href=""><img src="imagens/facebook.png" border ="0" width="26" height="26" /></a>
+              <a href=""><img src="imagens/twiter.png" border ="0" width="26" height="26" /></a>
+              <a href=""><img src="imagens/youtube.png" border ="0" width="26" height="26" /></a>
+              
+            </div>
+          </div>
+          <div class="widget">
+            <div class="widget_titulo">ÚLTIMAS NOTÍCIAS</div>
+            <div class="widget_conteudo">
+              <div class="noticia_item"><a href="">
+                Texto de notícias que vou procurar algum
+                plugins para mostrar automaticamente as
+                notícias, ou banco de dados.</a>
+              </div>
+              <div class="noticia_item"><a href="">
+                Texto de notícias que vou procurar algum
+                plugins para mostrar automaticamente as
+                notícias, ou banco de dados.</a>
+              </div>
+              <div class="noticia_item"><a href="">
+                Texto de notícias que vou procurar algum
+                plugins para mostrar automaticamente as
+                notícias, ou banco de dados.</a>
+              </div>
+              <div class="noticia_item"><a href="">
+                Texto de notícias que vou procurar algum
+                plugins para mostrar automaticamente as
+                notícias, ou banco de dados.</a>
+              </div>
+            </div>
+          </div>
+          <div class="widget">
+            <div class="widget_titulo">PUBLICIDADE</div>
+            <div class="widget_conteudo">
+              <img src="imagens\bethpilates.png" border="0" width="273" />
+              <img src="imagens\danivictorazzi.png" border="0" width="273" />
+            </div>
+          </div>
+          <div class="widget">
+            <div class="widget_titulo">ENCONTREM-NOS NO FACEBOOK</div>
+            <div class="widget_conteudo">
+              <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs&width=340&height=154&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="273" height="154" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true">
+                
+              </iframe>
+          </div>
+          <div class="widget">
+            <div class="widget_titulo">CLIMATEMPO</div>
+            <div class="widget_conteudo">
+				<iframe scrolling="no" frameborder="0" marginwidth="0" marginheight="0" width="340" height="170" src="http://selos.climatempo.com.br/selos/MostraSelo120.php?CODCIDADE=558&SKIN=padrao"></iframe>          </div>
+        </div>
+      </div>
+    </div>
+	
+	</body>
+
+</html>
