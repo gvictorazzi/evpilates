@@ -4,6 +4,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="<?php echo BASE_URL.'/assets/css/bootstrap.min.css';?>" rel="stylesheet">
         <link href="<?php echo BASE_URL.'/assets/css/template.css';?>" rel="stylesheet">
+        <link href="<?php echo BASE_URL.'/assets/css/navbarpadrao.css';?>" rel="stylesheet">        
         <script type="text/javascript" src="<?php echo BASE_URL.'/assets/js/jquery-3.1.1.min.js'; ?>"></script>
         <script type="text/javascript" src="<?php echo BASE_URL.'/assets/js/bootstrap.min.js';?>"></script>
         <script type="text/javascript" src="<?php echo BASE_URL.'/assets/js/evpilates.js';?>"></script>
@@ -13,7 +14,7 @@
         <div class="row">
             <div class="row topo_principal">
                 <div class="col-sm-4 logo">
-                    <img src="<?php echo BASE_URL.'/assets/images/logo.jpg' ;?>" width="311px" height="170px" />
+                    <img src="<?php echo BASE_URL.'/assets/images/logo.jpg' ;?>" width="310px" height="170px" />
                 </div>
                 <div class='col-sm-8 direitatopo'>
                     
@@ -90,7 +91,7 @@
         </div>
         <div style="clear: both;"></div>
         <div class="row menu">
-            <nav class='navbar navbar-inverse'>
+            <nav class='navbar navbar-default'>
                 <ul class='nav navbar-nav'>
                     <li><a href=''>Studio Pilates</a></li>
                     <li><a href=''>WorkShop</a></li>
